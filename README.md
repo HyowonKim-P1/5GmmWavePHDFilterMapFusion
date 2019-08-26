@@ -32,14 +32,9 @@ para.TargetDetectionThr_SP = 0.55; % weight threshold for SP detection
 ## Authors
 The code was developed by [Hyowon Kim], Ph.D. student at Hanyang University, Seoul, South Korea.
 
-For more information, please see **[here](https://arxiv.org/abs/1907.07411)**
+For more information, please see **[here](https://arxiv.org/abs/xxx)**
 ```
-@article{Wym2019,
-  title={Near-Field Joint Localization and Synchronization},
-  author={Wymeersch, Henk},
-  journal={arXiv preprint arXiv:1907.07411},
-  year={2019}
-}
+will be added
 ```
 
 
