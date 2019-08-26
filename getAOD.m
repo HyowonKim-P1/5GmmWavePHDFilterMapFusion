@@ -1,0 +1,20 @@
+function AOD = getAOD(BS,UE,point,type)
+   switch(type)
+       case('LOS')           
+           d_BS_UE=norm(point-UE(1:3));
+           AOD=[atan2(UE(2)-point(2),UE(1)-point(1)) asin((UE(3)-point(3))/d_BS_UE)];           
+       case('VA')
+            VA=point;
+            xUE=UE(1:3);
+            u=(BS-VA)/norm(BS-VA);
+            f=(BS+VA)/2;
+            incidencePoint=VA+((f-VA)'*u)/((xUE-VA)'*u)*(xUE-VA);
+            AOD=[atan2(incidencePoint(2),incidencePoint(1)) asin((incidencePoint(3)-BS(3))/norm(incidencePoint-BS))];            
+       case('SP')
+           SP=point;
+           d_SP_BS=norm(BS-SP);
+           AOD=[atan2(SP(2),SP(1)) asin((SP(3)-BS(3))/d_SP_BS)];           
+       otherwise
+           error('unknown type')
+   end
+end
