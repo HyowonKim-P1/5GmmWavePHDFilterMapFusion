@@ -32,7 +32,7 @@ para.TargetDetectionThr_SP = 0.55; % weight threshold for SP detection
 ## Authors
 The code was developed by Hyowon Kim, Ph.D. student at Hanyang University, Seoul, South Korea.
 
-For more information, please see **[here](https://arxiv.org/abs/xxx)**
+For more information, please see **[here](https://arxiv.org/abs/xxx)** will be updated.
 ```
 will be added
 ```
