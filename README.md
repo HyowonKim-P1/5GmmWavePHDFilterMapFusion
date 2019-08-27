@@ -34,7 +34,12 @@ The code was developed by Hyowon Kim, Ph.D. student at Hanyang University, Seoul
 
 For more information, please see **[here](https://arxiv.org/abs/1908.09806)**.
 ```
-will be added
+@article{HyKim2019,
+  title={5G mmWave Cooperative Positioning and Mapping using Multi-Model PHD},
+  author={Kim, Hyowon and Granstr\"{o}m, Karl and Gao, Lin and Battistelli, Giorgio and Kim, Sunwoo and Wymeersch, Henk},
+  journal={arXiv preprint arXiv:1907.09806},
+  year={2019}
+}
 ```
 
 
